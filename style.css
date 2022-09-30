@@ -10,10 +10,13 @@ body {
   background-color: white;
 }
 
+/*Navigation*/
+
 .nav-container {
   background-color: blueviolet;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .nav {
@@ -47,3 +50,25 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/*Hero*/
+
+.hero-container {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    padding: 10px;
+}   
+
+.hero img{
+    width: 500px;
+    border-radius: 10px;
+}
+
